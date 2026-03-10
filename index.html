@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Page</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#111;
+color:white;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:25px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:white;
+font-size:16px;
+}
+
+/* Hero Section */
+
+.hero{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+background-size:cover;
+background-position:center;
+color:white;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.btn{
+padding:12px 30px;
+background:#ff4c29;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+/* Services */
+
+.services{
+padding:80px 60px;
+text-align:center;
+}
+
+.service-container{
+display:flex;
+gap:30px;
+justify-content:center;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+width:250px;
+border-radius:8px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<nav class="navbar">
+<h2>MyWebsite</h2>
+
+<ul class="nav-links">
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<h1>Build Modern Websites</h1>
+<p>Create fast and responsive websites easily.</p>
+<a href="#" class="btn">Get Started</a>
+</div>
+</section>
+
+<section class="services">
+<h2>Our Services</h2>
+
+<div class="service-container">
+
+<div class="card">
+<h3>Web Design</h3>
+<p>Modern responsive designs.</p>
+</div>
+
+<div class="card">
+<h3>Development</h3>
+<p>Full stack web development.</p>
+</div>
+
+<div class="card">
+<h3>SEO</h3>
+<p>Improve search engine ranking.</p>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 MyWebsite</p>
+</footer>
+
+</body>
+</html>
